@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import DateRangePicker from "../components/DateRangePicker";
-import { searchHotels } from "../mocks/hotelsService";
+
+import { searchHotels } from "../mocks/hotelsService.js";
+
 
 export default function Home() {
   const [params, setParams] = useSearchParams();

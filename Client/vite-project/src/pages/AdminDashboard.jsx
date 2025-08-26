@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { getDB, saveDB } from "../mocks/db";
+import { getDB, saveDB } from "../mocks/db.js";
+
 
 export default function AdminDashboard() {
   const [db, setDb] = useState(getDB());
